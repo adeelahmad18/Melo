@@ -1,14 +1,16 @@
 # Melo
 
-**Melo** is a modern Android media utility for organizing and downloading media you are authorized to save. Paste a public link, choose an audio or video option, and follow each download with live progress, speed, and time remaining.
+**Melo** is a modern media utility for organizing and downloading media you are authorized to save. Paste a public link, choose an audio or video option, and follow each download with live progress, speed, and time remaining.
 
 Developed and maintained by [Adeel Ahmad](https://github.com/adeelahmad18).
 
 ## Download Melo
 
-Download the latest Android APK from the [Melo Releases page](https://github.com/adeelahmad18/Melo/releases/latest).
+Download the latest Android APK or macOS preview DMG from the [Melo Releases page](https://github.com/adeelahmad18/Melo/releases/latest).
 
 > Android may ask you to allow installs from your browser or file manager before installing an APK. Only download Melo from this official repository or its official releases.
+
+> The macOS preview requires [yt-dlp](https://github.com/yt-dlp/yt-dlp) and FFmpeg to process downloads. Install both with `brew install yt-dlp ffmpeg`.
 
 ## What Melo does
 
@@ -32,9 +34,20 @@ Melo keeps the download flow simple:
 - **Theme controls** — use light mode, dark mode, or your system setting.
 - **Clear guidance** — friendly messages for unsupported, sign-in-required, or members-only content.
 
+## Melo for Mac (preview)
+
+The native SwiftUI macOS app offers a clean, lightweight download workspace:
+
+- Paste a public link, choose MP3, M4A, 720p, 1080p, or best available, and add it to the queue.
+- View per-download progress, speed, and status while the queue runs.
+- Reveal completed media in Finder or share it with the standard macOS Share menu.
+- Completed files go directly to your Downloads folder.
+
+The Mac app uses your locally installed `yt-dlp` and FFmpeg tools. It does not circumvent paywalls, logins, subscriptions, DRM, or members-only access.
+
 ## Requirements
 
-- Android 8.0 or later
+- Android 8.0 or later, or macOS 27.0 or later for the current Mac preview
 - Internet connection
 - Available device storage
 

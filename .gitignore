@@ -20,3 +20,7 @@ local.properties
 
 # Release APKs are uploaded as GitHub Release assets rather than source files.
 releases/*.apk
+
+# Xcode user interface state and per-developer scheme settings.
+**/xcuserdata/
+*.xcuserstate
